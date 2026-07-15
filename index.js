@@ -82,3 +82,5 @@ app.put("/biodata/:id", async (req, res) => {
       .json({ error: "Terjadi kesalahan pada server atau database" });
   }
 });
+//delete
+app.delete("/biodata/:id", async (req, res) => {});
